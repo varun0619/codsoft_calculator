@@ -1,5 +1,4 @@
 body {
-    /* font-family: Arial, sans-serif; */
     font-weight: bold;
 }
 .calculator {
@@ -10,7 +9,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     background:  linear-gradient(-140deg, #536de7, #0e1008);
-    display:block;
+    display:wrap;
     box-shadow: 0px 3px 20px #2c3141;
    
 }
