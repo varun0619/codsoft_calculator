@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display" placeholder="calculate" readonly>
+        <div>
+            <button class="clear-btn" onclick="clearDisplay()">C</button>
+            <button class="sym-btn" onclick="addToDisplay('(')">(</button>
+            <button class="sym-btn" onclick="addToDisplay(')')">)</button>
+            <button class="sym-btn" onclick="addToDisplay('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="addToDisplay('7')">7</button>
+            <button class="btn" onclick="addToDisplay('8')">8</button>
+            <button class="btn" onclick="addToDisplay('9')">9</button>
+            <button class="sym-btn" onclick="addToDisplay('x')">x</button>
+        </div>
+        <div>
+            <button class="btn" onclick="addToDisplay('4')">4</button>
+            <button class="btn" onclick="addToDisplay('5')">5</button>
+            <button class="btn" onclick="addToDisplay('6')">6</button>
+            <button class="sym-btn" onclick="addToDisplay('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="addToDisplay('1')">1</button>
+            <button class="btn" onclick="addToDisplay('2')">2</button>
+            <button class="btn" onclick="addToDisplay('3')">3</button>
+            <button class="sym-btn" onclick="addToDisplay('+')">+</button>
+
+        </div>
+        <div>
+            <button class="btn" onclick="addToDisplay('0')">0</button>
+            <button class="sym-btn" onclick="addToDisplay('.')">.</button>
+            <button class="sym-btn" onclick="backspace()">←</button>
+            <button class="btn-equal" onclick="calculate()">=</button>
+        </div>
+        <a href="https://github.com/varun0619/codsoft_calculator.git" target="_blank">
+            <img class="logo" src="https://png2.cleanpng.com/sh/843f5e374a986e347298fbb40d941c1b/L0KzQYm3U8E6N6Zpj5H0aYP2gLBuTfJzaZ9pRd54Z3AwdrF1lL1kaZ1ojd5qdHB1PYbogsA1QGRrfKg5Mki4Poi9UcgyQWQ7Sac7MUWzQoOAUcg4PmcziNDw/kisspng-brand-logo-font-calculator-5ab0483fd60285.7618193615215022718766.png" alt="Calculator Logo">
+        </a>
+        
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
