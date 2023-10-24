@@ -2,7 +2,7 @@ body {
     font-weight: bold;
 }
 .calculator {
-    width: 304px;
+    width:max-content;
     margin: 0 auto;
     margin-top: 40px;
     border: 2px solid #0f0e0e;
